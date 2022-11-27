@@ -1,1 +1,16 @@
 /* styles go here */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.password,
+.terms,
+.rate,
+.recommendation {
+  margin-bottom: 0;
+}

@@ -22,21 +22,24 @@
       <fieldset class="field personal__info">
         <legend>Personal information</legend>
 
-        <label class="label surname">Surname:
+        <label class="label surname">
+          Surname:
           <input type="text"
             name="surname"
             autocomplete="off"
             required
           >
         </label>
-        <label class="label name">Name:
+        <label class="label name">
+          Name:
           <input
             type="text"
             name="name"
             autocomplete="off"
           >
         </label>
-        <label class="label age">How old are You?
+        <label class="label age">
+          How old are You?
           <input
             type="number"
             name="age"
@@ -45,10 +48,12 @@
             value="12"
           >
         </label>
-        <label class="label birth__date">Full date of birth:
+        <label class="label birth__date">
+          Full date of birth:
           <input type="date" name="dateOfBirth">
         </label>
-        <label class="label last terms">I accept the term of the agreement
+        <label class="label last terms">
+          I accept the term of the agreement
           <input type="checkbox" name="terms">
         </label>
       </fieldset>
@@ -56,7 +61,8 @@
       <fieldset class="field registration">
         <legend>Registration</legend>
 
-        <label class="label email">E-mail:
+        <label class="label email">
+          E-mail:
           <input
             type="email"
             name="email"
@@ -64,7 +70,8 @@
             required
           >
         </label>
-        <label class="label password">Password:
+        <label class="label password">
+          Password:
           <input
             type="password"
             name="password"
@@ -77,26 +84,39 @@
       <fieldset class="field interesting__fact">
         <legend>An interesting fact about you!</legend>
 
-        <label class="label cats">Do you love cats?
-          <input type="radio" name="loveCats">
-            Yes
-          <input type="radio" name="doNotLoveCats">
-            No
-        </label>
-        <label class="label fav__color">What is your favorite color?
+        <div class="label">
+          Do you love cats?
+          <input
+            type="radio"
+            name="loveCats"
+            id="yesCats"
+          >
+          <label for="yesCats">Yes</label>
+          <input
+            type="radio"
+            name="loveCats"
+            id="noCats"
+          >
+          <label for="noCats">No</label>
+        </div>
+        <label class="label fav__color">
+          What is your favorite color?
           <input type="color" name="color">
         </label>
-        <label class="label bed__time">What time do you go to bed?
+        <label class="label bed__time">
+          What time do you go to bed?
           <input type="time" name="bedTime">
         </label>
-        <label class="label car__brand">What are your favorite brand of cars?
+        <label class="label car__brand">
+          What are your favorite brand of cars?
           <select name="carBrand" multiple>
             <option value="bmv">BMV</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
           </select>
         </label>
-        <label class="label rate">How do you rate our work?
+        <label class="label rate">
+          How do you rate our work?
           <input
             type="range"
             name="rate"
@@ -108,7 +128,8 @@
       <fieldset class="field additional__info">
         <legend>Additional info:</legend>
 
-        <label class="label comment">Comments:
+        <label class="label comment">
+          Comments:
           <textarea
             name="comments"
             cols="30"
@@ -117,7 +138,8 @@
           >
           </textarea>
         </label>
-        <label class="label recommendation">Would you recommend us?
+        <label class="label recommendation">
+          Would you recommend us?
           <select name="recommendation" required>
             <option value="yes">yes</option>
             <option value="no">no</option>
